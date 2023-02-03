@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T07:06:55.777Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jx4eZ-eVg1SD98G1910z" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-03T07:10:27.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HG9wKew9G-t96Cbm0pJS" version="20.8.15" type="github">
   <diagram name="第 1 页" id="EVu2Rd81g_lWa8THcVCt">
     <mxGraphModel dx="1152" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1069" pageHeight="1654" math="1" shadow="0">
       <root>
@@ -37,27 +37,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R9hl_3WZdRqwd8kDsEqt-12" value="Data MixUp" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=10;fontColor=#0000FF;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="142.5" y="780" width="120" height="80" as="geometry" />
+        <mxCell id="R9hl_3WZdRqwd8kDsEqt-12" value="Adversarial MixUp" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=10;fontColor=#0000FF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="110" y="780" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="R9hl_3WZdRqwd8kDsEqt-13" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#0000FF;entryX=0.063;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="R9hl_3WZdRqwd8kDsEqt-12" edge="1">
+        <mxCell id="R9hl_3WZdRqwd8kDsEqt-13" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#0000FF;entryX=0.063;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1.5;" parent="1" target="R9hl_3WZdRqwd8kDsEqt-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="710" as="sourcePoint" />
             <mxPoint x="150" y="660" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="100" y="820" />
+              <mxPoint x="100" y="825" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R9hl_3WZdRqwd8kDsEqt-14" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#0000FF;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;entryX=-0.008;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="R9hl_3WZdRqwd8kDsEqt-9" edge="1">
+        <mxCell id="R9hl_3WZdRqwd8kDsEqt-14" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=#0000FF;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;entryX=-0.008;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.92;exitY=0.436;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="R9hl_3WZdRqwd8kDsEqt-9" edge="1" source="R9hl_3WZdRqwd8kDsEqt-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="820" as="sourcePoint" />
+            <mxPoint x="290" y="820" as="sourcePoint" />
             <mxPoint x="570" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R9hl_3WZdRqwd8kDsEqt-15" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=14;fontColor=#0000FF;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" edge="1">
+        <mxCell id="R9hl_3WZdRqwd8kDsEqt-15" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=14;fontColor=#0000FF;fillColor=#ffe6cc;strokeColor=#d79b00;exitX=0.5;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="R9hl_3WZdRqwd8kDsEqt-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="790" as="sourcePoint" />
+            <mxPoint x="200" y="770" as="sourcePoint" />
             <mxPoint x="640" y="590" as="targetPoint" />
             <Array as="points">
               <mxPoint x="200" y="710" />
